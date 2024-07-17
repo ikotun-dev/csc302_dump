@@ -1,4 +1,6 @@
 // binary search c++ version
+// the python version of this is explanatory.
+//
 #include <iostream>
 #include <vector>
 
