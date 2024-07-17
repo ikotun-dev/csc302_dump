@@ -1,3 +1,5 @@
+# time complexity of the bubble sort algorithm is O(n^2)....worst case scenario ( i guess 😂)
+# This is because the algorithm has to run through the array
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):  # This is to run the process multiple times
