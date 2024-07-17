@@ -2,8 +2,11 @@ def bubble_sort(arr):
     n = len(arr)
     for i in range(n):  # This is to run the process multiple times
         print(f"interation [{i}] : arr - > {arr}")
+        # its n-i-1 because we dont need to compare the last element
         for j in range(0, n - i - 1):  # this is for comparing and doing the swapping
+            # if the current element is greater than the next element
             if arr[j] > arr[j + 1]:
+                # swapping the elements
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
     return arr
