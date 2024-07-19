@@ -34,5 +34,4 @@ int main() {
   } else {
     std::cout << "Element not found in the array" << std::endl;
   }
-  
 }
