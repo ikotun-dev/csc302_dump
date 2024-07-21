@@ -1,37 +1,25 @@
-// insertion search
-/**
 #include <iostream>
 #include <vector>
-int insertion_sort(std::vector<int> &arr){
-  //loop through the array
-  for(int i = 1; i < arr.size();  i++){
-    //store the current element
-    int current = arr[i];
-    //store the index of the previous element
+
+// insertion sort algorithm to sort the array by taking the current element
+// aside and then comparing it with the rest of the elements and then inserting
+// it in the correct position
+//
+//
+//
+void insertion_sort(std::vector<int> &arr) {
+  for (int i = 0; i < arr.size(); i++) {
+    int current_element = arr[i];
     int j = i - 1;
-    //loop through the array until the current element is greater than the
-previous element while(j >= 0 && arr[j] > current){ arr[j + 1] = arr[j]; j--;
+
+    // move elements if they are greater than the first elements
+    // while j is greater than or equal to 0 and the element at j is greater
+    // than the first element
+    while (j >= 0 && arr[j] > current_element) {
+      arr[j + 1] = arr[j];
+      j = j - 1;
     }
-    //insert the current element
-    arr[j + 1] = current;
+
+    arr[j + 1] = current_element;
   }
-}
-
-int main(){
-    std::vector<int> arr = {5, 6, 7, 8, 9, 0};
-    insertion_sort(arr);
-    for(int i = 0; i < arr.size(); i++){
-        std::cout << arr[i] << " ";
-    }
-
-}
-
-*/
-
-#include <vector>
-int insertion_sort(std::vector<int> &arr) {
-  for (int i = 1; i < arr.size(); i++) {
-    int current = arr[i];
-    int j = i - 1;
-  };
 }
