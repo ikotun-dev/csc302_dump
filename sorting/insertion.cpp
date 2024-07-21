@@ -1,4 +1,4 @@
-//insertion search
+// insertion search
 /**
 #include <iostream>
 #include <vector>
@@ -9,10 +9,8 @@ int insertion_sort(std::vector<int> &arr){
     int current = arr[i];
     //store the index of the previous element
     int j = i - 1;
-    //loop through the array until the current element is greater than the previous element
-    while(j >= 0 && arr[j] > current){
-        arr[j + 1] = arr[j];
-        j--;
+    //loop through the array until the current element is greater than the
+previous element while(j >= 0 && arr[j] > current){ arr[j + 1] = arr[j]; j--;
     }
     //insert the current element
     arr[j + 1] = current;
@@ -30,12 +28,10 @@ int main(){
 
 */
 
-
 #include <vector>
-int insertion_sort(std::vector<int> &arr){
-    for(int i = 1; i <  arr.size(); i++){
+int insertion_sort(std::vector<int> &arr) {
+  for (int i = 1; i < arr.size(); i++) {
     int current = arr[i];
-    int j = i-1
-    }
-
+    int j = i - 1;
+  };
 }
