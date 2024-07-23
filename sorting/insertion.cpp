@@ -23,3 +23,12 @@ void insertion_sort(std::vector<int> &arr) {
     arr[j + 1] = current_element;
   }
 }
+
+int main() {
+  std::vector<int> arr = {5, 6, 7, 8, 9, 0};
+  insertion_sort(arr);
+  for (int i = 0; i < arr.size(); i++) {
+    std::cout << arr[i] << " ";
+  }
+  return 0;
+}
