@@ -20,8 +20,12 @@ an algorithm is simply a step by step procedure to solve a problem. { sequence o
 ### Big O notation
 
 Big O is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.<br/>
-In my own words - It is a way to describe the efficiency of an algorithm in terms of time and space complexity.<br/>
-time complexity : how long it takes to run<br/>
-space complexity : how much memory it takes<br/>
+
+> In my own words - It is a way to describe the efficiency of an algorithm in terms of time and space complexity.<br/>
+> time complexity : how long it takes to run<br/>
+> space complexity : how much memory it takes<br/>
 
 ### common big O notation
+
+> O(1) - constant time : this means regardless of the problem size, it would take the same time to run. <br/>
+> O(log n) - logarithmic time : this means the time it takes to run increases logarithmically with the size of the input. ( logarithmic in the sense that, it grows at a small rate..and not arithmetically or geometrically)<br/>
