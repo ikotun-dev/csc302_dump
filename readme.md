@@ -29,3 +29,5 @@ Big O is a mathematical notation that describes the limiting behavior of a funct
 
 > O(1) - constant time : this means regardless of the problem size, it would take the same time to run. <br/>
 > O(log n) - logarithmic time : this means the time it takes to run increases logarithmically with the size of the input. ( logarithmic in the sense that, it grows at a small rate..and not arithmetically or geometrically)<br/>
+> O(n) - linear time : this means the time it takes to run increases linearly with the size of the input. : linear -> arithmetically <br/>
+> O(n^2) - quadratic time : this means the time it takes to run increases quadratically with the size of the input. : quadratic -> geometrically <br/>
