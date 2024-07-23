@@ -1,6 +1,6 @@
 ### DSA
 
-data structure - way of organize data in computer so that it can be used effectively.<br/>
+data structure - way of organizing data in computer so that it can be used effectively.<br/>
 different data structures suit specific use case.<br/>
 
 common data structures:<br/>
